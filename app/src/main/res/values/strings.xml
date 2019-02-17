@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OmxRPiController</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="time_default">00:00</string>
+
+    <string name="media_files_list_label">Media files:</string>
+
+    <string name="header_app_name">PLAYER CONTROLLER</string>
+    <string name="ip">IP:</string>
+    <string name="disconnected">disconnected</string>
+    <string name="port_delim">:</string>
+    <string name="down_speed">DL speed:</string>
+</resources>

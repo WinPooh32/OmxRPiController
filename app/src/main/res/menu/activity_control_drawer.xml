@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/lan_connect"
+            android:title="Connect to player"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/magnet"
+            android:title="Play magnet"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/folder_image"
+            android:title="Play from folder"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/settings"
+            android:title="Settings"
+            android:checkable="false"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                android:checkable="false"/>
+        </menu>
+    </item>
+
+</menu>

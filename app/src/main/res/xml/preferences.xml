@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Connection options">
+
+        <EditTextPreference
+            android:key="ip"
+            android:title="IP address"
+            android:dialogTitle="Input ip address of player" />
+
+        <EditTextPreference
+            android:key="port"
+            android:title="Port"
+            android:dialogTitle="Input port of player" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="Torrent options">
+
+        <EditTextPreference
+            android:key="connections"
+            android:title="Connections"
+            android:dialogTitle="Connections"
+            android:defaultValue="10"/>
+
+        <EditTextPreference
+            android:key="uploads"
+            android:title="Uploads"
+            android:dialogTitle="Uploads"
+            android:defaultValue="0"/>
+
+        <EditTextPreference
+            android:key="path"
+            android:title="Download files on player to"
+            android:dialogTitle="Input existing folder path"
+            android:defaultValue="/tmp"/>
+
+        <CheckBoxPreference
+            android:key="verify"
+            android:title="Verify files"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
